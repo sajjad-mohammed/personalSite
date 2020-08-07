@@ -203,7 +203,7 @@ p{
     color: rgb(50, 130, 145);
 }
 .foot{
-    color: white;
+    color: rgb(179, 179, 40);
     background-color: rgb(46, 45, 45);
     text-align: center;
     padding-top: 20px;
@@ -212,5 +212,5 @@ p{
 }
 .icons>a{
     color: rgb(179, 179, 40);
-    font-size: 30px;
+    font-size: 50px;
 }
