@@ -1,0 +1,216 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    background-color:black;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    padding-bottom: 17px;
+}
+.logo{
+     color:#fed136;
+     font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;;
+     font-weight: normal;
+     font-size: 30px;
+     padding-top: 26px;
+     padding-left: 200px;
+}
+.btms{
+     float: right;
+     margin: -40px 80px;
+}
+li,a {
+    color:cadetblue;
+    display: inline-block;
+    margin: 0 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-family: "Kaushan Script", "Helvetica Neue"
+    , Helvetica, Arial, cursive; 
+    text-decoration: none; 
+}
+.back{
+    width: 100%;
+    height: 653px;
+    margin-top: 80px;
+    background-image: url(laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.text,p1{
+    padding-top: 100px;
+    color: whitesmoke;
+    font-size: 120px; 
+    font-family: 'Gloria Hallelujah', cursive;   
+}
+p1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
+    'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: teal;
+}
+
+.section{
+    font-size: 30px;
+    font-family:   Montserrat;
+    color:rgb(12, 46, 56);
+    text-align: center;
+    text-shadow:black 3px 5px 3px;
+    margin-top: 100px;
+}
+p{
+    font-size: 16px ;
+    font-style: italic;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.one{
+    margin-bottom: 50px;
+    font-style: oblique;
+}
+.container{
+    width: 100%;
+    height:200px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 20%; 
+}
+.projects{
+    width: 100%;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.music{
+    background-image: url(m1.png);
+}
+.tom{
+    background-image: url(2.png);
+}
+.skema{
+    background-image: url(3.png);
+}
+.game{
+    background-image: url(pg.png);
+}
+.subjects{
+    width: 100%;
+    height: 100px;
+    background-size: 100%;
+    text-shadow: none;
+    font-style: italic;
+}
+.des{
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+}
+.skills{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    padding-top: 40px;
+}
+.skills-title{
+    width: 100%;
+    color: burlywood;
+    font-family: 'Chilanka', cursive;
+    font-size: 50px;
+}
+.imgs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    padding: 20px;
+}
+.js{
+    background-image: url(js.png);
+}
+.ht{
+    background-image: url(html.png);
+}
+.cs{
+    background-image: url(css.png);
+}
+.jg{
+    background-image: url(jQurery.gif);
+}
+.angular{
+    background-image: url(angular.png);
+}
+.react{
+    background-image: url(react.png);
+}
+.sql{
+    background-image: url(sql.png);
+}
+.git{
+    background-image: url(git.png);
+}
+.pixi{
+    background-image: url(pixi.png);
+}
+.node{
+    background-image: url(node.png);
+}
+.bst{
+    background-image: url(bst.png);
+}
+.npm{
+    background-image: url(npm.png);
+}
+
+.skill{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100px; 
+    height: 100px;
+    flex-basis: 25%;
+}
+.info{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 40px;
+    text-shadow: rgb(12, 71, 71) 5px 10px 5px;
+}
+.mypic{
+    text-align: center;
+}
+.pic{
+    border-radius: 50%;
+    border: black 3px solid;
+}
+.data{
+    color: rgb(46, 39, 39) ;
+    font-family: 'Courgette', cursive;
+    padding-top: 30px;
+    text-shadow: rgb(148, 173, 219) 5px 10px 5px;
+}
+.resume{
+    color: rgb(7, 7, 7); 
+}
+.button{
+    color: rgb(50, 130, 145);
+}
+.foot{
+    color: white;
+    background-color: rgb(46, 45, 45);
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'MuseoModerno', cursive;
+    font-size: 25px;
+}
+.icons>a{
+    color: rgb(179, 179, 40);
+    font-size: 30px;
+}
