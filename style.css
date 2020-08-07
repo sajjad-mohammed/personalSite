@@ -25,7 +25,7 @@
      margin: -40px 80px;
 }
 li,a {
-    color:cadetblue;
+    color:#fed136 ;
     display: inline-block;
     margin: 0 5px;
     padding-bottom: 5px;
@@ -44,25 +44,23 @@ li,a {
     background-repeat: no-repeat;
     text-align: center;
 }
-.text,p1{
+.text,.stack{
     padding-top: 100px;
     color: whitesmoke;
     font-size: 120px; 
     font-family: 'Gloria Hallelujah', cursive;   
 }
-p1{
+.stack{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 
     'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
-    color: teal;
+    color: whitesmoke;
 }
-
 .section{
     font-size: 30px;
     font-family:   Montserrat;
-    color:rgb(12, 46, 56);
+    color: black;
     text-align: center;
-    text-shadow:black 3px 5px 3px;
     margin-top: 100px;
 }
 p{
@@ -122,9 +120,9 @@ p{
 }
 .skills-title{
     width: 100%;
-    color: burlywood;
-    font-family: 'Chilanka', cursive;
     font-size: 50px;
+    font-family:   Montserrat;
+    font-family: 'Chilanka', cursive;
 }
 .imgs{
     display: flex;
@@ -168,7 +166,6 @@ p{
 .npm{
     background-image: url(npm.png);
 }
-
 .skill{
     width: 100%;
     background-repeat: no-repeat;
@@ -179,9 +176,8 @@ p{
 }
 .info{
     text-align: center;
-    font-family: 'Lobster', cursive;
     font-size: 40px;
-    text-shadow: rgb(12, 71, 71) 5px 10px 5px;
+    font-family:   Montserrat;
 }
 .mypic{
     text-align: center;
@@ -194,7 +190,6 @@ p{
     color: rgb(46, 39, 39) ;
     font-family: 'Courgette', cursive;
     padding-top: 30px;
-    text-shadow: rgb(148, 173, 219) 5px 10px 5px;
 }
 .resume{
     color: rgb(7, 7, 7); 
